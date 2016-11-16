@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="MAJELIS AL AMIN">
+        <menu>
+            <item
+                android:id="@+id/nav_dashboard"
+                android:title="DASHBOARD" />
+            <item
+                android:id="@+id/nav_lokasi"
+                android:title="LOKASI MAJELIS" />
+        </menu>
+    </item>
+
+    <item android:title="MULTIMEDIA">
+        <menu>
+            <item
+                android:id="@+id/nav_video"
+                android:title="VIDEO CHANNEL" />
+            <item
+                android:id="@+id/nav_radio"
+                android:title="RADIO STREAMING" />
+        </menu>
+    </item>
+
+    <item android:title="SOSIAL MEDIA">
+        <menu>
+            <item
+                android:id="@+id/nav_facebook"
+                android:title="FACEBOOK" />
+            <item
+                android:id="@+id/nav_instagram"
+                android:title="INSTAGRAM" />
+            <item
+                android:id="@+id/nav_twitter"
+                android:title="TWITTER" />
+        </menu>
+    </item>
+
+    <item android:title="SHOLAT">
+        <menu>
+            <item
+                android:id="@+id/nav_adzan"
+                android:title="ADZAN" />
+            <item
+                android:id="@+id/nav_qiblat"
+                android:title="QIBLAT" />
+        </menu>
+    </item>
+
+</menu>
